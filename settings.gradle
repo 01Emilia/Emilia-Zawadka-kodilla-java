@@ -3,4 +3,6 @@ include 'kodilla-testing'
 include 'kodilla-testing:kodilla-testing'
 findProject(':kodilla-testing:kodilla-testing')?.name = 'kodilla-testing'
 include 'kodilla-testing'
+include 'kodilla-testing:calculator'
+findProject(':kodilla-testing:calculator')?.name = 'calculator'
 
