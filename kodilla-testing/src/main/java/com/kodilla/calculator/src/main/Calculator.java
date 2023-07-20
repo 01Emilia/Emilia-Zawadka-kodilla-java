@@ -1,4 +1,4 @@
-package com.kodilla;
+package com.kodilla.calculator.src.main;
 
 public class Calculator {
 

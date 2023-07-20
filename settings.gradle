@@ -5,4 +5,6 @@ findProject(':kodilla-testing:kodilla-testing')?.name = 'kodilla-testing'
 include 'kodilla-testing'
 include 'kodilla-testing:calculator'
 findProject(':kodilla-testing:calculator')?.name = 'calculator'
+include 'kodilla-testing:user'
+findProject(':kodilla-testing:user')?.name = 'user'
 
